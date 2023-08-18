@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #a79797;
+  }
+</style>
+</head>
+<body>
+
+<h2>Complex Table with Rowspan and Colspan</h2>
+
+<table>
+  <tr>
+    <th>Department</th>
+    <th colspan="2">Courses</th>
+    <th>Location</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Computer Science</td>
+    <td>UG</td>
+    <td>PG</td>
+    <td rowspan="2">Building A</td>
+  </tr>
+  <tr>
+    <td colspan="2">Diploma</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Mathematics</td>
+    <td>UG</td>
+    <td>PG</td>
+    <td>Building B</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ph.D.</td>
+    <td></td>
+  </tr>
+</table>
+
+</body>
+</html>
